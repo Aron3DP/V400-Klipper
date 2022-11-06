@@ -13,7 +13,7 @@
 #
 # Defaults to auto
 #
-camera="auto"
+camera="usb"
 
 ### Additional options to supply to MJPG Streamer for the USB camera
 #
@@ -47,7 +47,7 @@ camera_usb_options="-r 1920x1080 -f 60"
 #   additional_brokenfps_usb_devices=("aabb:ccdd" "aabb:eeff")
 #
 #
-#additional_brokenfps_usb_devices=()
+additional_brokenfps_usb_devices=("328f:003f")
 
 ### Additional options to supply to MJPG Streamer for the RasPi Cam
 #
